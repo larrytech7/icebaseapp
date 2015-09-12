@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Profiles</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profiles_detail">Details</string>
+    <string name="prof_name">Profile Name</string>
+    <string name="prof_description">Enter a description of this profile, background or biography</string>
+    <string name="loclatitttude">Enter your latitude</string>
+    <string name="loclongitude">your longitude</string>
+    <string name="city">City</string>
+
+    <string-array name="countries">
+        <item name="Cameroon">Cameroon</item>
+        <item name="Nigeria">Nigeria</item>
+        <item name="Equatorial Guinea">Equatorial Guinea</item>
+        <item name="South Africa">South Africa</item>
+        <item name="Egypt">Egypt</item>
+        <item name="Ghana">Ghana</item>
+    </string-array>
+
+    <string name="content_authority">com.iceteck.provider.profiles</string>
+</resources>

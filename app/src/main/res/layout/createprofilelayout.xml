@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/profileNameEditText"
+        android:editable="true"
+        android:hint="@string/prof_name" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countrySpinner"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:spinnerMode="dialog"
+        android:entries="@array/countries"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilecity"
+        android:hint="@string/city" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileimg"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_profilebg"
+        android:scaleType="fitCenter" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/profDescriptionEdititext"
+        android:lines="5"
+        android:editable="true"
+        android:hint="@string/prof_description" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/proflocationlatitude"
+        android:hint="@string/loclatitttude" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/proflocationLongitude"
+        android:hint="@string/loclongitude" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/buttonflatReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:text="Cancel" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/buttonCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:text="Create" />
+    </LinearLayout>
+</LinearLayout>
+</com.gc.materialdesign.views.ScrollView>
