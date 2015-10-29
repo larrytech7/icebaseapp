@@ -4,3 +4,5 @@ Recompiling is easy. Just fork the main database project and then clone it to mo
 
 #USAGE
 //TODO
+Import into  your ide using the tools at your disposal or download zip and create new project from it.
+Add icebase library in your gradle app synchronize
