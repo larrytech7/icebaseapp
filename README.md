@@ -4,5 +4,6 @@ Recompiling is easy. Just fork the main database project and then clone it to mo
 
 #USAGE
 //TODO
-Import into  your ide using the tools at your disposal or download zip and create new project from it.
-Add icebase library in your gradle app and synchronize.
+
+- Import into  your ide using the tools at your disposal or download zip and create new project from it.
+- Add icebase library in your gradle app and synchronize. Note that the use of Ecplise for building Android Apps has been discouraged by google and support for eclipse users has probably stopped. Use the new gradle in Android studio to build and run this test app
